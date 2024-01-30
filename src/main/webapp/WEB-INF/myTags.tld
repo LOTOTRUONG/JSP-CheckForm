@@ -1,0 +1,33 @@
+<taglib>
+    <tlib-version>1.0</tlib-version>
+    <jsp-version>2.0</jsp-version>
+    <short-name>Exer05-TLD</short-name>
+
+    <tag>
+        <name>obtainingList</name>
+        <tag-class>loto.vn.exercise0502.ArrayTag</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>list</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+
+    <tag>
+        <name>CheckBox</name>
+        <tag-class>loto.vn.exercise0502.CheckBoxTag</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>list</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <name>name</name>
+            <required>true</required>
+        </attribute>
+
+    </tag>
+
+</taglib>
